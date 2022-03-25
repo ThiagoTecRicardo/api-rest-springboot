@@ -49,29 +49,29 @@ Projeto Java + Bootstrap
 
       - Clique em Instalar.
       
-       - Na página Instalar Operador:
+      - Na página Instalar Operador:
 
-       - Selecione Todos os namespaces no cluster (padrão) para o Modo de instalação. 
+      - Selecione Todos os namespaces no cluster (padrão) para o Modo de instalação. 
 
-       - Esse modo instala o Operador no namespace padrão openshift-operators, que permite que o Operador observe e seja disponibilizado para todos os              namespaces no cluster.
+      - Esse modo instala o Operador no namespace padrão openshift-operators, que permite que o Operador observe e seja disponibilizado para todos os              namespaces no cluster.
 
-       - Selecione Automático para a Estratégia de Aprovação.
+      - Selecione Automático para a Estratégia de Aprovação.
 
-       - Isso garante que as futuras atualizações do Operator sejam tratadas automaticamente pelo Operator Lifecycle Manager (OLM).
+      - Isso garante que as futuras atualizações do Operator sejam tratadas automaticamente pelo Operator Lifecycle Manager (OLM).
 
-       - Se você selecionar a estratégia de aprovação manual, o OLM cria uma solicitação de atualização.
+      - Se você selecionar a estratégia de aprovação manual, o OLM cria uma solicitação de atualização.
 
-       - Como administrador de cluster, você deve aprovar manualmente a solicitação de atualização do OLM para atualizar o Operador para a nova versão.
+      - Como administrador de cluster, você deve aprovar manualmente a solicitação de atualização do OLM para atualizar o Operador para a nova versão.
 
-       - Selecione um canal de atualização.
+      - Selecione um canal de atualização.
 
-       - O canal estável permite a instalação da última versão estável e suportada do Red Hat OpenShift Pipelines Operator.
+      - O canal estável permite a instalação da última versão estável e suportada do Red Hat OpenShift Pipelines Operator.
 
-       - O canal de visualização permite a instalação da versão de visualização mais recente do Red Hat OpenShift Pipelines Operator, que pode conter              recursos que ainda não estão disponíveis no canal estável e não são suportados.
+      - O canal de visualização permite a instalação da versão de visualização mais recente do Red Hat OpenShift Pipelines Operator, que pode conter              recursos que ainda não estão disponíveis no canal estável e não são suportados.
 
-       - Clique em Instalar. 
+      - Clique em Instalar. 
 
-       - Você verá o Operador listado na página Operadores Instalados.
+      - Você verá o Operador listado na página Operadores Instalados.
        
 
 ### 3- Explorando o CLI:

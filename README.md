@@ -5,7 +5,7 @@ Projeto Java + Bootstrap
 
 ## 1-Explorando o ambiente (Mostrar o console, mostrar o catalogo, mostrar operators)
 
-### 2- Instalar Operators: 
+## 2- Instalar Operators: 
 (pipeline, Web Terminal) (Somente 2 pessoas poderão executar, um instala o Operator de Pipeline e o outro instala o Web Terminal)
 
 #### Pré-requisitos:
@@ -74,7 +74,7 @@ Projeto Java + Bootstrap
       - Você verá o Operador listado na página Operadores Instalados.
        
 
-### 3- Explorando o CLI:
+## 3- Explorando o CLI:
 
  #### Comandos:
  
@@ -84,32 +84,32 @@ Projeto Java + Bootstrap
  > oc get pods -n openshift-console
 
 
-### 4- Subir a aplicação no OCP como Pipeline padrão:
+## 4- Subir a aplicação no OCP como Pipeline padrão:
 (importante subir já com a parametrização de recursos: CPU/Memory)
 
-### 5-Adicionar Trigger no Pipeline:
+## 5-Adicionar Trigger no Pipeline:
 Descrevar esse passo
 
-### 6- Testar Trigger com o Webhook do GitHub:
+## 6- Testar Trigger com o Webhook do GitHub:
 Descrevar esse passo
 
-### 7- Escalar a aplicação manualmente (via Webconsole)
+## 7- Escalar a aplicação manualmente (via Webconsole)
 
-### 8- Escalar a aplicação manualmente:
+## 8- Escalar a aplicação manualmente:
 (via CLI # oc scale deployment <name_deployment> --replicas=3 ; oc get pods)
 
-### 9- Downscale manual:
+## 9- Downscale manual:
 (CLI # oc scale deployment <name_deployment> --replicas=0 ; oc get pods)
 
-### 10- Downscale manual:
+## 10- Downscale manual:
 (WebConsole)
 
-### 11- Autoscale da aplicação:
+## 11- Autoscale da aplicação:
 (Configurar o HPA)
 
-### 12 -Mostrar logs da aplicação (Web)
+## 12 -Mostrar logs da aplicação (Web)
 
-### 13- Mostrar logs via CLI:
+## 13- Mostrar logs via CLI:
 (oc logs <pod>)
-  
-### Disparar o teste AB (Pedir que os participantes executem caso tenham o pacote httpd-tools (AB))
+
+> Disparar o teste AB (Pedir que os participantes executem caso tenham o pacote httpd-tools (AB))

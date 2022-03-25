@@ -49,7 +49,7 @@ Projeto Java + Bootstrap
 
       - Clique em Instalar.
       
-      > Na página Instalar Operador:
+       - Na página Instalar Operador:
 
        - Selecione Todos os namespaces no cluster (padrão) para o Modo de instalação. 
 

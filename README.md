@@ -75,7 +75,16 @@ Projeto Java + Bootstrap
        
 
 ### 3- Explorando o CLI:
-(oc project, oc projects, oc get nodes, oc get pods -n openshift-console)
+ > Comandos:
+ 
+ - oc project
+
+ - oc projects
+
+ - oc get nodes
+
+ - oc get pods -n openshift-console)
+
 
 ### 4- Subir a aplicação no OCP como Pipeline padrão:
 (importante subir já com a parametrização de recursos: CPU/Memory)

@@ -3,40 +3,56 @@ Projeto Java + Bootstrap
 
 # Passos a seram abordados:
 
-## Explorando o ambiente (Mostrar o console, mostrar o catalogo, mostrar operators)
+## 1-Explorando o ambiente (Mostrar o console, mostrar o catalogo, mostrar operators)
 
-### Instalar Operators: 
+### 2- Instalar Operators: 
 (pipeline, Web Terminal) (Somente 2 pessoas poderão executar, um instala o Operator de Pipeline e o outro instala o Web Terminal)
 
-### Explorando o CLI:
+#### Pré-requisitos
+
+Acesso a um cluster do OpenShift Container Platform usando uma conta com permissões de administrador de cluster.
+1. Procedimento
+
+  -Na perspectiva Administrador do console da web, navegue até Operadores → OperatorHub.
+  -Use a caixa Filtrar por palavra-chave para pesquisar o Web Terminal Operator no catálogo e clique no bloco Web Terminal.
+  -Leia a breve descrição sobre o Operador na página do Web Terminal e clique em Instalar.
+  -Na página Instalar Operador, mantenha os valores padrão para todos os campos.
+  -A opção rápida no menu Update Channel permite a instalação da versão mais recente do Web Terminal Operator.
+  -A opção Todos os namespaces no cluster no menu Installation Mode permite que o Operador observe e esteja disponível para todos os namespaces no cluster.
+  -A opção openshift-operators no menu Installed Namespace instala o Operator no namespace padrão openshift-operators.
+  -A opção Automática no menu Estratégia de Aprovação garante que as atualizações futuras do Operador sejam tratadas automaticamente pelo Gerenciador de     -Ciclo de Vida do Operador.
+  -Clique em Instalar.
+  -Na página Operadores Instalados, clique em Exibir Operador para verificar se o Operador está listado na página Operadores Instalados.
+
+### 3- Explorando o CLI:
 (oc project, oc projects, oc get nodes, oc get pods -n openshift-console)
 
-### Subir a aplicação no OCP como Pipeline padrão:
+### 4- Subir a aplicação no OCP como Pipeline padrão:
 (importante subir já com a parametrização de recursos: CPU/Memory)
 
-### Adicionar Trigger no Pipeline:
+### 5-Adicionar Trigger no Pipeline:
 Descrevar esse passo
 
-### Testar Trigger com o Webhook do GitHub:
+### 6- Testar Trigger com o Webhook do GitHub:
 Descrevar esse passo
 
-### Escalar a aplicação manualmente (via Webconsole)
+### 7- Escalar a aplicação manualmente (via Webconsole)
 
-### Escalar a aplicação manualmente:
+### 8- Escalar a aplicação manualmente:
 (via CLI # oc scale deployment <name_deployment> --replicas=3 ; oc get pods)
 
-### Downscale manual:
+### 9- Downscale manual:
 (CLI # oc scale deployment <name_deployment> --replicas=0 ; oc get pods)
 
-### Downscale manual:
+### 10- Downscale manual:
 (WebConsole)
 
-### Autoscale da aplicação:
+### 11- Autoscale da aplicação:
 (Configurar o HPA)
 
-### Mostrar logs da aplicação (Web)
+### 12 -Mostrar logs da aplicação (Web)
 
-### Mostrar logs via CLI:
+### 13- Mostrar logs via CLI:
 (oc logs <pod>)
   
 ### Disparar o teste AB (Pedir que os participantes executem caso tenham o pacote httpd-tools (AB))

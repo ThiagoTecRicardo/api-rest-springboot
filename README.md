@@ -39,7 +39,7 @@ Projeto Java + Bootstrap
 
 2. Procedimento de instalação Operator Web Terminal
 
-      - Na perspectiva Administrador do console da web, navegue até Operadores → OperatorHub.
+      > Na perspectiva Administrador do console da web, navegue até Operadores → OperatorHub.
 
       - Use a caixa Filtrar por palavra-chave para pesquisar o Red Hat OpenShift Pipelines Operator no catálogo. 
 
@@ -48,8 +48,8 @@ Projeto Java + Bootstrap
       - Leia a breve descrição sobre o Operador na página do Operador do Red Hat OpenShift Pipelines. 
 
       - Clique em Instalar.
-
-       > Na página Instalar Operador:
+      
+      > Na página Instalar Operador:
 
        - Selecione Todos os namespaces no cluster (padrão) para o Modo de instalação. 
 

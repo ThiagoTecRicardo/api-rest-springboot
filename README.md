@@ -76,7 +76,7 @@ Projeto Java + Bootstrap
 
 ### 3- Explorando o CLI:
 
- #### 1. Comandos:
+ #### Comandos:
  
  > oc projec |
  > oc projects |

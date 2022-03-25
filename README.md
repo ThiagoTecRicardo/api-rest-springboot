@@ -14,62 +14,65 @@ Projeto Java + Bootstrap
 
 1. Procedimento de instalação Operator de Pipeline
 
-  - Na perspectiva Administrador do console da web, navegue até Operadores → OperatorHub.
-  
-  - Use a caixa Filtrar por palavra-chave para pesquisar o Web Terminal Operator no catálogo e clique no bloco Web Terminal.
-   
-  - Leia a breve descrição sobre o Operador na página do Web Terminal e clique em Instalar.
-  
-  - Na página Instalar Operador, mantenha os valores padrão para todos os campos.
-  
-  - A opção rápida no menu Update Channel permite a instalação da versão mais recente do Web Terminal Operator.
-  
-  - A opção Todos os namespaces no cluster no menu Installation Mode permite que o Operador observe e esteja disponível para todos os namespaces no cluster.
-  
-  - A opção openshift-operators no menu Installed Namespace instala o Operator no namespace padrão openshift-operators.
-  
-  - A opção Automática no menu Estratégia de Aprovação garante que as atualizações futuras do Operador sejam tratadas automaticamente pelo Gerenciador de     
-  - Ciclo de Vida do Operador.
-  
-  - Clique em Instalar.
-  
-  - Na página Operadores Instalados, clique em Exibir Operador para verificar se o Operador está listado na página Operadores Instalados.
+      > Na perspectiva Administrador do console da web, navegue até Operadores → OperatorHub.
+
+      - Use a caixa Filtrar por palavra-chave para pesquisar o Web Terminal Operator no catálogo e clique no bloco Web Terminal.
+
+      - Leia a breve descrição sobre o Operador na página do Web Terminal e clique em Instalar.
+
+      - Na página Instalar Operador, mantenha os valores padrão para todos os campos.
+
+      - A opção rápida no menu Update Channel permite a instalação da versão mais recente do Web Terminal Operator.
+
+      - A opção Todos os namespaces no cluster no menu Installation Mode permite que o Operador observe e esteja disponível para todos os namespaces no           cluster.
+
+      - A opção openshift-operators no menu Installed Namespace instala o Operator no namespace padrão openshift-operators.
+
+      - A opção Automática no menu Estratégia de Aprovação garante que as atualizações futuras do Operador sejam tratadas automaticamente pelo Gerenciador
+      
+      - Ciclo de Vida do Operador.
+
+      - Clique em Instalar.
+
+      - Na página Operadores Instalados, clique em Exibir Operador para verificar se o Operador está listado na página Operadores Instalados.
+
 
 2. Procedimento de instalação Operator Web Terminal
 
-  - Na perspectiva Administrador do console da web, navegue até Operadores → OperatorHub.
+      - Na perspectiva Administrador do console da web, navegue até Operadores → OperatorHub.
 
-  - Use a caixa Filtrar por palavra-chave para pesquisar o Red Hat OpenShift Pipelines Operator no catálogo. 
+      - Use a caixa Filtrar por palavra-chave para pesquisar o Red Hat OpenShift Pipelines Operator no catálogo. 
 
-  - Clique no bloco Operador do Red Hat OpenShift Pipelines.
+      - Clique no bloco Operador do Red Hat OpenShift Pipelines.
 
-  - Leia a breve descrição sobre o Operador na página do Operador do Red Hat OpenShift Pipelines. 
+      - Leia a breve descrição sobre o Operador na página do Operador do Red Hat OpenShift Pipelines. 
 
-  - Clique em Instalar.
+      - Clique em Instalar.
 
-   > Na página Instalar Operador:
+       > Na página Instalar Operador:
 
-   - Selecione Todos os namespaces no cluster (padrão) para o Modo de instalação. 
+       - Selecione Todos os namespaces no cluster (padrão) para o Modo de instalação. 
 
-   - Esse modo instala o Operador no namespace padrão openshift-operators, que permite que o Operador observe e seja disponibilizado para todos os              namespaces no cluster.
+       - Esse modo instala o Operador no namespace padrão openshift-operators, que permite que o Operador observe e seja disponibilizado para todos os              namespaces no cluster.
 
-   - Selecione Automático para a Estratégia de Aprovação.
+       - Selecione Automático para a Estratégia de Aprovação.
 
-   - Isso garante que as futuras atualizações do Operator sejam tratadas automaticamente pelo Operator Lifecycle Manager (OLM).
+       - Isso garante que as futuras atualizações do Operator sejam tratadas automaticamente pelo Operator Lifecycle Manager (OLM).
 
-   - Se você selecionar a estratégia de aprovação manual, o OLM cria uma solicitação de atualização.
+       - Se você selecionar a estratégia de aprovação manual, o OLM cria uma solicitação de atualização.
 
-   - Como administrador de cluster, você deve aprovar manualmente a solicitação de atualização do OLM para atualizar o Operador para a nova versão.
+       - Como administrador de cluster, você deve aprovar manualmente a solicitação de atualização do OLM para atualizar o Operador para a nova versão.
 
-   - Selecione um canal de atualização.
+       - Selecione um canal de atualização.
 
-   - O canal estável permite a instalação da última versão estável e suportada do Red Hat OpenShift Pipelines Operator.
+       - O canal estável permite a instalação da última versão estável e suportada do Red Hat OpenShift Pipelines Operator.
 
-   - O canal de visualização permite a instalação da versão de visualização mais recente do Red Hat OpenShift Pipelines Operator, que pode conter recursos      que ainda não estão disponíveis no canal estável e não são suportados.
+       - O canal de visualização permite a instalação da versão de visualização mais recente do Red Hat OpenShift Pipelines Operator, que pode conter              recursos que ainda não estão disponíveis no canal estável e não são suportados.
 
-   - Clique em Instalar. 
+       - Clique em Instalar. 
 
-   - Você verá o Operador listado na página Operadores Instalados.
+       - Você verá o Operador listado na página Operadores Instalados.
+       
 
 ### 3- Explorando o CLI:
 (oc project, oc projects, oc get nodes, oc get pods -n openshift-console)

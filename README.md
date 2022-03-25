@@ -8,7 +8,7 @@ Projeto Java + Bootstrap
 ### 2- Instalar Operators: 
 (pipeline, Web Terminal) (Somente 2 pessoas poderão executar, um instala o Operator de Pipeline e o outro instala o Web Terminal)
 
-#### Pré-requisitos
+#### Pré-requisitos:
 
 > Acesso a um cluster do OpenShift Container Platform usando uma conta com permissões de administrador de cluster.
 
@@ -77,10 +77,10 @@ Projeto Java + Bootstrap
 ### 3- Explorando o CLI:
 
       1. Comandos:
-      - oc projec
-      - oc projects
-      - oc get nodes
-      - oc get pods -n openshift-console
+        - oc projec
+        - oc projects
+        - oc get nodes
+        - oc get pods -n openshift-console
 
 
 ### 4- Subir a aplicação no OCP como Pipeline padrão:

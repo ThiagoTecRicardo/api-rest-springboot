@@ -12,17 +12,26 @@ Projeto Java + Bootstrap
 
 Acesso a um cluster do OpenShift Container Platform usando uma conta com permissões de administrador de cluster.
 1. Procedimento
-
-  -Na perspectiva Administrador do console da web, navegue até Operadores → OperatorHub.
-  -Use a caixa Filtrar por palavra-chave para pesquisar o Web Terminal Operator no catálogo e clique no bloco Web Terminal.
-  -Leia a breve descrição sobre o Operador na página do Web Terminal e clique em Instalar.
-  -Na página Instalar Operador, mantenha os valores padrão para todos os campos.
-  -A opção rápida no menu Update Channel permite a instalação da versão mais recente do Web Terminal Operator.
-  -A opção Todos os namespaces no cluster no menu Installation Mode permite que o Operador observe e esteja disponível para todos os namespaces no cluster.
-  -A opção openshift-operators no menu Installed Namespace instala o Operator no namespace padrão openshift-operators.
-  -A opção Automática no menu Estratégia de Aprovação garante que as atualizações futuras do Operador sejam tratadas automaticamente pelo Gerenciador de     -Ciclo de Vida do Operador.
-  -Clique em Instalar.
-  -Na página Operadores Instalados, clique em Exibir Operador para verificar se o Operador está listado na página Operadores Instalados.
+  - Na perspectiva Administrador do console da web, navegue até Operadores → OperatorHub.
+  
+  - Use a caixa Filtrar por palavra-chave para pesquisar o Web Terminal Operator no catálogo e clique no bloco Web Terminal.
+   
+  - Leia a breve descrição sobre o Operador na página do Web Terminal e clique em Instalar.
+  
+  - Na página Instalar Operador, mantenha os valores padrão para todos os campos.
+  
+  - A opção rápida no menu Update Channel permite a instalação da versão mais recente do Web Terminal Operator.
+  
+  - A opção Todos os namespaces no cluster no menu Installation Mode permite que o Operador observe e esteja disponível para todos os namespaces no cluster.
+  
+  - A opção openshift-operators no menu Installed Namespace instala o Operator no namespace padrão openshift-operators.
+  
+  - A opção Automática no menu Estratégia de Aprovação garante que as atualizações futuras do Operador sejam tratadas automaticamente pelo Gerenciador de     
+  - Ciclo de Vida do Operador.
+  
+  - Clique em Instalar.
+  
+  - Na página Operadores Instalados, clique em Exibir Operador para verificar se o Operador está listado na página Operadores Instalados.
 
 ### 3- Explorando o CLI:
 (oc project, oc projects, oc get nodes, oc get pods -n openshift-console)

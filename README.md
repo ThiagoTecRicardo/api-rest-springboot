@@ -78,9 +78,9 @@ Projeto Java + Bootstrap
 
  #### 1. Comandos:
  
- > oc projec
- > oc projects
- > oc get nodes
+ > oc projec |
+ > oc projects |
+ > oc get nodes |
  > oc get pods -n openshift-console
 
 

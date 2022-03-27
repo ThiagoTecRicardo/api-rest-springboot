@@ -103,7 +103,7 @@ Projeto Java + Bootstrap
       - Clique no botão "Create";
       - Aguarde a cliação da aplicação;
       - Para acessar a documentação da aplicação adicione **/swagger-ui/** após a **URL** gerada pelo Openshft para acesso da aplicação;
-      > exemplo: http://api-rest-springboot-git-test-drive-anvisa.apps.cluster-wczjk.wczjk.sandbox1416.opentlc.com **{/swagger-ui/}**
+      > exemplo: http://api-rest-springboot-git-test-drive-anvisa.apps.cluster-wczjk.wczjk.sandbox1416.opentlc.com/swagger-ui/
             
 ## 5-Adicionar Trigger no Pipeline:
 Descrevar esse passo

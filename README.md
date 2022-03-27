@@ -99,7 +99,7 @@ Projeto Java + Bootstrap
       - Marcar o checkbox na sessão **Pipelines**;
       - Cilcar no link **Resource limit** na sessão "**advanced options**";
       - No formulario que será aberto, colocar os seguiontes valores:
-      > CPU -> Request = 2 cores | CPU -> Limit = 4 cores | Memory -> Request = 1024 MB | Memory -> Limit = 2048 MB
+      > CPU -> Request = 2 cores | CPU -> Limit = 4 cores | Memory -> Request = 1024 Mi | Memory -> Limit = 2048 Mi
       - Clique no botão "Create";
       - Aguarde a cliação da aplicação;
             

@@ -86,7 +86,16 @@ Projeto Java + Bootstrap
 
 ## 4- Subir a aplicação no OCP como Pipeline padrão:
 (importante subir já com a parametrização de recursos: CPU/Memory)
+> Fazer login no console Web e seguir os procedimentos a seguer:
 
+1. Na pagina inicial selecione o menu +APP;
+2. Clicar no link "create a Project";
+3. Na janela que será aberta, preencha os campos:
+> Name: colocar um nome para o projeto | Display Name: Colocar o nome uq e irá aparecer na lista de projetos | Description: Descrever o objetivo do projeto;
+4. Na proxima tela selecionar a opção -> **From Git
+5. Será aberto uma tela de preenchimento para cadastro de sua aplicação:
+      - No compo **Git Repo URL:** colocar a url do projeto do GitHub;
+      -  
 ## 5-Adicionar Trigger no Pipeline:
 Descrevar esse passo
 

@@ -86,7 +86,7 @@ Projeto Java + Bootstrap
 
 ## 4- Subir a aplicação no OCP como Pipeline padrão:
 (importante subir já com a parametrização de recursos: CPU/Memory)
-> Fazer login no console Web e seguir os procedimentos a seguer:
+> Fazer login no console Web e seguir os procedimentos a seguir:
 
 1. Na pagina inicial selecione o menu +APP;
 2. Clicar no link "create a Project";

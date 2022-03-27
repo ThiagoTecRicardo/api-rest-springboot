@@ -1,4 +1,4 @@
-package br.com.springboot.curso_jdev_treinamento.config;
+package br.com.springboot.test.drive.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,4 +1,4 @@
-package br.com.springboot.curso_jdev_treinamento.model;
+package br.com.springboot.test.drive.model;
 
 import java.io.Serializable;
 

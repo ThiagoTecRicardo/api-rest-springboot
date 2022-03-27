@@ -1,4 +1,4 @@
-package br.com.springboot.curso_jdev_treinamento.controllers;
+package br.com.springboot.test.drive.controllers;
 
 import java.util.List;
 
@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.springboot.curso_jdev_treinamento.model.Usuario;
-import br.com.springboot.curso_jdev_treinamento.repository.UsuarioRepository;
+import br.com.springboot.test.drive.model.Usuario;
+import br.com.springboot.test.drive.repository.UsuarioRepository;
 
 /**
  *

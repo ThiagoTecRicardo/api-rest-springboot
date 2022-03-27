@@ -1,4 +1,4 @@
-package br.com.springboot.curso_jdev_treinamento;
+package br.com.springboot.test.drive;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

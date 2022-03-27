@@ -135,9 +135,6 @@ Projeto Java + Bootstrap
 <img width="1438" alt="Screen Shot 2022-03-27 at 20 43 58" src="https://user-images.githubusercontent.com/85974419/160306378-fc15429f-6281-4c2e-88ee-a12b93a9a467.png">
 
 
- 
-
-
 ## 6- Testar Trigger com o Webhook do GitHub:
 Descrevar esse passo
 

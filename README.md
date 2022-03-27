@@ -12,7 +12,7 @@ Projeto Java + Bootstrap
 
 > Acesso a um cluster do OpenShift Container Platform usando uma conta com permissões de administrador de cluster.
 
-1. Procedimento de instalação Operator de Pipeline
+1. Procedimento de instalação Operator Web Terminal
 
       > Na perspectiva Administrador do console da web, navegue até Operadores → OperatorHub.
 
@@ -37,7 +37,7 @@ Projeto Java + Bootstrap
       - Na página Operadores Instalados, clique em Exibir Operador para verificar se o Operador está listado na página Operadores Instalados.
 
 
-2. Procedimento de instalação Operator Web Terminal
+2. Procedimento de instalação Operator de Pipeline
 
       > Na perspectiva Administrador do console da web, navegue até Operadores → OperatorHub.
 

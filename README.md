@@ -130,6 +130,11 @@ Projeto Java + Bootstrap
 
 <img width="1438" alt="Screen Shot 2022-03-27 at 19 50 10" src="https://user-images.githubusercontent.com/85974419/160304525-e1548a74-bbfb-422c-84cb-ceb8d14c3fa6.png">
 
+9. No formulario que aparecerá cole a URL que copiou no passo 7 e cole no campo "Payload URL" e depois clique no botão "Add webhook";
+
+<img width="1438" alt="Screen Shot 2022-03-27 at 20 43 58" src="https://user-images.githubusercontent.com/85974419/160306378-fc15429f-6281-4c2e-88ee-a12b93a9a467.png">
+
+
  
 
 

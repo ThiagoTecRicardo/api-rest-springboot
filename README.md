@@ -106,7 +106,32 @@ Projeto Java + Bootstrap
       > exemplo: http://api-rest-springboot-git-test-drive-anvisa.apps.cluster-wczjk.wczjk.sandbox1416.opentlc.com/swagger-ui/
             
 ## 5-Adicionar Trigger no Pipeline:
-Descrevar esse passo
+1. Selecione no menu lateral **"Pipelines"**;
+2. Selecione do lado direito do pipeline o botão, Conforme imagem;
+3. Exemplo:
+<img width="1438" alt="Screen Shot 2022-03-27 at 19 26 32" src="https://user-images.githubusercontent.com/85974419/160303742-2be97bb1-fd51-4cf9-8a33-0a13075a57f7.png">
+
+4. Irá abrir uma lista de opções, selecione "Add Trigger";
+
+<img width="1438" alt="Screen Shot 2022-03-27 at 19 30 11" src="https://user-images.githubusercontent.com/85974419/160303881-96878070-9a5e-425e-a7c8-b8cd207e6a15.png">
+
+5. Na proxima tela abrirá um formulario, selecione na aopção "Git Provider type" selecione o valor = "github-push" e clique no botão "Add";
+
+<img width="1438" alt="Screen Shot 2022-03-27 at 19 33 28" src="https://user-images.githubusercontent.com/85974419/160304070-4a29e3f2-fe28-44d9-813a-995facccb78d.png">
+
+6. Selecione no menu lateral "Topology", no pod criado de sua Trigger clique no botão para ter acesso a URL, conforme imagem:
+<img width="1438" alt="Screen Shot 2022-03-27 at 19 39 30" src="https://user-images.githubusercontent.com/85974419/160304231-b6139533-f04f-46f9-ba55-a3e7bac45d0a.png">
+
+7. Copie a URL gerada que abrirá em outra aba do seu navegador após o clique;
+
+<img width="1438" alt="Screen Shot 2022-03-27 at 19 43 51" src="https://user-images.githubusercontent.com/85974419/160304329-9ed20a35-9975-4256-9b73-ef896f9fada7.png">
+
+8. Acesso seu repositório, clique nas seguintes opções: Settings -> Webhooks -> Add webhook:
+
+<img width="1438" alt="Screen Shot 2022-03-27 at 19 50 10" src="https://user-images.githubusercontent.com/85974419/160304525-e1548a74-bbfb-422c-84cb-ceb8d14c3fa6.png">
+
+ 
+
 
 ## 6- Testar Trigger com o Webhook do GitHub:
 Descrevar esse passo

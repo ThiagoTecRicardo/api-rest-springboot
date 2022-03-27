@@ -102,6 +102,8 @@ Projeto Java + Bootstrap
       > CPU -> Request = 2 cores | CPU -> Limit = 4 cores | Memory -> Request = 1024 Mi | Memory -> Limit = 2048 Mi
       - Clique no botão "Create";
       - Aguarde a cliação da aplicação;
+      - Para acessar a documentação da aplicação adicione **/swagger-ui/** após a **URL** gerada pelo Openshft para acesso da palicação;
+      > exemplo: http://api-rest-springboot-git-test-drive-anvisa.apps.cluster-wczjk.wczjk.sandbox1416.opentlc.com **{/swagger-ui/}**
             
 ## 5-Adicionar Trigger no Pipeline:
 Descrevar esse passo

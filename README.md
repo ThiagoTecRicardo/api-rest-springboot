@@ -95,7 +95,17 @@ Projeto Java + Bootstrap
 4. Na proxima tela selecionar a opção -> From Git
 5. Será aberto uma tela de preenchimento para cadastro de sua aplicação:
       - No campo **Git Repo URL:** colocar a url do projeto do GitHub;
-      -  
+      - No campo **Git Reference:** colocar o valor = main
+      - Marcar o checkbox na sessão **Pipelines**;
+      - Cilcar no link **Resource limit** na sessão "**advanced options**";
+      - No formulario que será aberto, colocar os seguiontes valores:
+            - CPU -> Request = 20;
+            - CPU -> Limit = 50;
+            - Memory -> Request = 100;
+            - Memory -> Limit = 200;
+      - Clique no botão "Create";
+      - Aguarde a cliação da aplicação;
+            
 ## 5-Adicionar Trigger no Pipeline:
 Descrevar esse passo
 

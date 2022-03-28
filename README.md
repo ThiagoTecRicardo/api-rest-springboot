@@ -154,6 +154,11 @@ Projeto Java + Bootstrap
       
 ## 7- Escalar a aplicação manualmente (via Webconsole)
 
+1. Acessar no menu lateral a opção "Topology", clique no icone do POD da aplicação e na sessão "Details" clique no botão para subir mais uma instancia da Aplicação:
+
+<img width="1433" alt="Screen Shot 2022-03-28 at 13 40 40" src="https://user-images.githubusercontent.com/85974419/160447055-731acc1e-5db1-4b1c-9943-612914efb0bc.png">
+
+
 ## 8- Escalar a aplicação manualmente por linha de comando:
 
 > oc scale deployment <name_deployment> --replicas=3 | oc get pods
@@ -161,8 +166,12 @@ Projeto Java + Bootstrap
 ## 9- Downscale manual por linha de comando:
 > oc scale deployment <name_deployment> --replicas=0 | oc get pods
 
-## 10- Downscale manual:
-(WebConsole)
+## 10- Downscale manual (via Webconsole)
+
+1. Acessar no menu lateral a opção "Topology", clique no icone do POD da aplicação e na sessão "Details" clique no botão para baixar as instancias da Aplicação:
+
+<img width="1433" alt="Screen Shot 2022-03-28 at 13 40 40" src="https://user-images.githubusercontent.com/85974419/160447055-731acc1e-5db1-4b1c-9943-612914efb0bc.png">
+
 
 ## 11- Autoscale da aplicação:
 (Configurar o HPA)

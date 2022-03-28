@@ -174,9 +174,26 @@ Projeto Java + Bootstrap
 
 
 ## 11- Autoscale da aplicação:
-(Configurar o HPA)
+
+1. Acessar no menu lateral a opção "Topology", clique no icone do POD da aplicação e na sessão "Actions" clique na opcão "Add HorizontalPodAutoscaler":
+
+<img width="1433" alt="Screen Shot 2022-03-28 at 14 05 37" src="https://user-images.githubusercontent.com/85974419/160450990-9b32debb-c508-4f97-ae16-e8407d55f76b.png">
+
+2. Será aberto um formulario para preenchimento dos parametros, colocar os valores e clique no botão "Save" comforme imagem:
+
+<img width="1433" alt="Screen Shot 2022-03-28 at 14 07 26" src="https://user-images.githubusercontent.com/85974419/160451001-f3d08378-cfdb-4796-ae37-28b511271396.png">
+
 
 ## 12 -Mostrar logs da aplicação (Web)
+
+1. Acessar no menu lateral a opção "Topology", clique no icone do POD da aplicação e na sessão "Resources" clique no botão para baixar as instancias da Aplicação:
+
+<img width="1433" alt="Screen Shot 2022-03-28 at 13 58 04" src="https://user-images.githubusercontent.com/85974419/160449754-b05ceaf4-a703-4c6b-8731-c433bad4f531.png">
+
+2. Abrirá a tela de logs da aplicação:
+
+<img width="1433" alt="Screen Shot 2022-03-28 at 13 59 49" src="https://user-images.githubusercontent.com/85974419/160449765-3848ba95-a4f4-4832-8bad-bcfa120d0f85.png">
+
 
 ## 13- Mostrar logs via linha de comando:
 

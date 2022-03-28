@@ -6,7 +6,7 @@ items:
   metadata:
     labels:
       app.kubernetes.io/name: springboot-rest-api-sample
-    name: hello-java-spring-boot
+    name: springboot-rest-api-sample
   spec:
     output:
       to:

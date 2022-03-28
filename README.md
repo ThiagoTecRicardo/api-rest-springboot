@@ -130,21 +130,36 @@ Projeto Java + Bootstrap
 
 <img width="1438" alt="Screen Shot 2022-03-27 at 19 50 10" src="https://user-images.githubusercontent.com/85974419/160304525-e1548a74-bbfb-422c-84cb-ceb8d14c3fa6.png">
 
-9. No formulario que aparecerá cole a URL que copiou no passo 7 e cole no campo "Payload URL" e depois clique no botão "Add webhook";
+9. No formulario que aparecerá cole a URL que copiou no passo 7 e cole no campo "Payload URL" , selecionar no compo "Content type" a opção "aplication/json" e depois clique no botão "Add webhook";
 
 <img width="1438" alt="Screen Shot 2022-03-27 at 20 43 58" src="https://user-images.githubusercontent.com/85974419/160306378-fc15429f-6281-4c2e-88ee-a12b93a9a467.png">
 
 
 ## 6- Testar Trigger com o Webhook do GitHub:
-Descrevar esse passo
 
+#### Passos para teste:
+
+1. Alterar o arquivo "index.html" na linha 46 colocando seu nome na tag **h3** que está no seguinte caminho "/src/main/resources/static/";
+      
+<img width="1433" alt="Screen Shot 2022-03-28 at 12 48 28" src="https://user-images.githubusercontent.com/85974419/160437149-23052688-927e-45c6-89ee-f4d49bdbdc87.png">
+
+2. Após essa alteração clique no botão "commit changes";
+
+<img width="1433" alt="Screen Shot 2022-03-28 at 12 51 23" src="https://user-images.githubusercontent.com/85974419/160437667-c55f3ac4-41c0-42d4-bc4d-41d90f9283fa.png">
+
+3. No console do OCP, voce pode acompahar a Pipeline iniciando um novo build e deploy da nova versão da Aplicação;
+
+<img width="1433" alt="Screen Shot 2022-03-28 at 12 54 54" src="https://user-images.githubusercontent.com/85974419/160438431-80a22fcc-81c6-44f8-9c9d-b837b3480bf8.png">
+
+      
 ## 7- Escalar a aplicação manualmente (via Webconsole)
 
-## 8- Escalar a aplicação manualmente:
-(via CLI # oc scale deployment <name_deployment> --replicas=3 ; oc get pods)
+## 8- Escalar a aplicação manualmente por linha de comando:
 
-## 9- Downscale manual:
-(CLI # oc scale deployment <name_deployment> --replicas=0 ; oc get pods)
+> oc scale deployment <name_deployment> --replicas=3 | oc get pods
+
+## 9- Downscale manual por linha de comando:
+> oc scale deployment <name_deployment> --replicas=0 | oc get pods
 
 ## 10- Downscale manual:
 (WebConsole)
@@ -154,7 +169,8 @@ Descrevar esse passo
 
 ## 12 -Mostrar logs da aplicação (Web)
 
-## 13- Mostrar logs via CLI:
-(oc logs <pod>)
+## 13- Mostrar logs via linha de comando:
 
-> Disparar o teste AB (Pedir que os participantes executem caso tenham o pacote httpd-tools (AB))
+> oc logs <pod>
+
+> Item opcional: *Disparar o teste AB (Pedir que os participantes executem caso tenham o pacote httpd-tools (AB))

@@ -1,4 +1,4 @@
-# App - Test Drive
+# App - Test Drive Red Hat RHOCP 4.+
 Projeto Java + Bootstrap 
 
 # Passos a seram abordados:
